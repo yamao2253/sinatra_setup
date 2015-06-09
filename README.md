@@ -5,4 +5,5 @@
     $ cd sinatra_setup
     $ ./run.sh
     make && cd project_directory
+    cp ~/repos/sinatra_setup/Gemfile <project_directory>
     $ bundle install --path vendor/bundle --without production

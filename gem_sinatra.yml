@@ -16,5 +16,5 @@
     #  sudo: no
 
     - name: gem install bundle
-      gem: name=bundler state=latest
+      gem: name=bundler state=latest user_install=False
       sudo: no
